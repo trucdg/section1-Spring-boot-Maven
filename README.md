@@ -1,5 +1,5 @@
 # Section 1: Spring Boot Overview
-## What is JVM? JRE? and JDK?
+# 🌺 What is JVM? JRE? and JDK?
 Resource: [Differences between JVM vs JRE vs JDK](https://byjus.com/gate/difference-between-jdk-jre-and-jvm/#:~:text=The%20JDK%20is%20an%20abbreviation,that%20develops%20applications%20in%20Java.)
 1. [JVM - Java Virtual Machine](https://github.com/trucdg/java-virtual-machine):
    - Provides Runtime Environment in which Java bytecode can be executed.
@@ -27,4 +27,40 @@ Resource: [Differences between JVM vs JRE vs JDK](https://byjus.com/gate/differe
 - Development Tools examples: Java debugger + Java compipler + JavaDoc
 
 ![image](https://github.com/trucdg/section1-SpringBoot3-intro/assets/91285203/4f606138-4538-40e1-84c4-c4916dc26480)
+
+## ☃️ Spring and Spring Boot:
+1. What is Spring?
+   - Simply put, the Spring framework provides comprehensive infrastructure support for Java applications.
+   - Spring is packed with some nice features like Dependency Injection, and out of the box modules like:
+        - Spring JDBC (Spring Java Database Connectivity)
+        - Spring MVC (Spring Model View Controller)
+        - Spring AOP (Aspect-Oriented Programming)
+        - Spring ORM (Object-Relational Mapping)
+     ... etc.
+2. What is Spring Boot?
+   - Spring Boot is built on top of the conventional Spring framework. So, it provides all the features of spring and is yet easier to use than spring.
+   - Some features in Spring Boot:
+     - Opinionated 'starter' dependencies to simplify the build and application configuration
+     - Embedded server to avoid complexity in application deployment
+     - Automatic config. for Spring functionality - whenever possible
+
+3. Quick word on Maven:
+   - Maven downloads the necessary JAR files and dependencies for your projects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
