@@ -44,9 +44,6 @@ Resource: [Differences between JVM vs JRE vs JDK](https://byjus.com/gate/differe
      - Embedded server to avoid complexity in application deployment
      - Automatic config. for Spring functionality - whenever possible
 
-3. Quick word on Maven:
-   - Maven downloads the necessary JAR files and dependencies for your projects
-
 ### Difference between Spring MVC and Spring Boot
 1. **Spring MVC**:
    - Spring is widely used for creating scalable applications.
@@ -69,7 +66,11 @@ Resource: [Differences between JVM vs JRE vs JDK](https://byjus.com/gate/differe
       - **Service Layer** - consists of service classes and uses services provided by data access layer
       - **Integration Layer** - consists of different web services
 
-
+## What is Maven?
+- Maven is a project management tool.
+- Most popular use of Maven is for build management and dependencies.
+- 
+     
 
 
 
