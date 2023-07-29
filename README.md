@@ -47,6 +47,31 @@ Resource: [Differences between JVM vs JRE vs JDK](https://byjus.com/gate/differe
 3. Quick word on Maven:
    - Maven downloads the necessary JAR files and dependencies for your projects
 
+### Difference between Spring MVC and Spring Boot
+1. **Spring MVC**:
+   - Spring is widely used for creating scalable applications.
+   - For web applications, Spring provides Spring MVC framework which is a module of spring, used to create scalable web applications.
+   - Spring MVC framework enables the separation of modules, namely Model, View, and Controller.
+   - The model object can be passed between View and Controller using maps.
+   - The Spring MVC framework consists of the following components:
+      - **Model** - a model can be an **object** or **collection of objects**, which basically contains the data of the application
+      - **View** - a view is used for displaying the information to the user in a specific format.
+      - **Controller** - contains the logical part of the application
+        `@Controller` annotation is used to mark that class as a controller.
+      - **Front Controller** - is responsible for managing the flow of the web application. **Dispatcher Servlet acts as a front controller in Spring MVC/
+    
+2. **Spring Boot**:
+   - In Spring Boot, everything is auto-configured. We just need to use proper configuration for utilizing a particular functionality.
+   - Spring Boot is very useful if we want to develop REST API.
+   - There are 4 main layers in Spring Boot:
+      - **Presentation Layer** - it consists of the view (front-end part)
+      - **Data Access Layer** - CRUD operations on the database comes under this category.
+      - **Service Layer** - consists of service classes and uses services provided by data access layer
+      - **Integration Layer** - consists of different web services
+
+
+
+
 
 
 
