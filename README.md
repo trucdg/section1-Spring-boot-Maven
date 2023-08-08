@@ -72,8 +72,10 @@ Resource: [Differences between JVM vs JRE vs JDK](https://byjus.com/gate/differe
 - Maven downloads the JAR files (Spring JAR files, Hibernate JAR files, etc) needed for our projects and make those JAR files available during compile/ run
 
 
-
-
+----------
+## Resources:
+- [Maven Project Structure](https://github.com/trucdg/section1-Maven/blob/main/README.md)
+- [Spring Boot Project Files](https://github.com/trucdg/section1-SpringBoot-Project-Files)
 
 
 
