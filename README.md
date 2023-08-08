@@ -1,4 +1,4 @@
-# Section 1: JVM-JRE-JDK, Spring, Spring Boot and Maven
+# Section 1: JVM-JRE-JDK, Spring and Spring Boot
 # 🌺 What is JVM? JRE? and JDK?
 Resource: [Differences between JVM vs JRE vs JDK](https://byjus.com/gate/difference-between-jdk-jre-and-jvm/#:~:text=The%20JDK%20is%20an%20abbreviation,that%20develops%20applications%20in%20Java.)
 1. [JVM - Java Virtual Machine](https://github.com/trucdg/java-virtual-machine):
@@ -69,22 +69,7 @@ Resource: [Differences between JVM vs JRE vs JDK](https://byjus.com/gate/differe
 ## What is Maven?
 - Maven is a project management tool.
 - Most popular use of Maven is for build management and dependencies.
-- Maven downloads the JAR files (Spring JAR files, Hibernate JAR files, etc) needed for our projects and make those JAR files available during compile/ run.
-
-### Maven Project Structure:
-
-<img width="224" alt="Screen Shot 2023-08-08 at 1 57 38 PM" src="https://github.com/trucdg/section1-Spring-boot-Maven/assets/91285203/7b787933-362b-432e-b843-a3809cf52ae7">
-
-- Maven provides a standard directory structure
-- file **pom.xml** is a Project Object Model (POM). It is the fundamental unit of work in Maven. It is an XML file that contains information about the project and configuration details such as dependencies, build directory, etc.
-
-| Directory           | Description |
-| -------------       | ------------- |
-| src/main/java       | Your java source code |
-| src/main/resources  | Properties/ config files used by your app  |
-| src/main/ webapp    | JSP (JavaSeverPages) files, web config files, and other web assets (images, css, js, etc)  |
-| src/test            | Unit Testing code and properties |
-| target              | Destination directory for compiled code. Automatically created by Maven |
+- Maven downloads the JAR files (Spring JAR files, Hibernate JAR files, etc) needed for our projects and make those JAR files available during compile/ run
 
 
 
