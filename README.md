@@ -1,4 +1,4 @@
-# Section 1: Spring Boot Overview
+# Section 1: JVM-JRE-JDK, Spring, Spring Boot and Maven
 # 🌺 What is JVM? JRE? and JDK?
 Resource: [Differences between JVM vs JRE vs JDK](https://byjus.com/gate/difference-between-jdk-jre-and-jvm/#:~:text=The%20JDK%20is%20an%20abbreviation,that%20develops%20applications%20in%20Java.)
 1. [JVM - Java Virtual Machine](https://github.com/trucdg/java-virtual-machine):
@@ -69,8 +69,9 @@ Resource: [Differences between JVM vs JRE vs JDK](https://byjus.com/gate/differe
 ## What is Maven?
 - Maven is a project management tool.
 - Most popular use of Maven is for build management and dependencies.
-- 
-     
+- Maven downloads the JAR files (Spring JAR files, Hibernate JAR files, etc) needed for our projects and make those JAR files available during compile/ run.
+
+### Maven Project Structure:
 
 
 
