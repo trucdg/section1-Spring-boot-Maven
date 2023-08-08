@@ -75,6 +75,9 @@ Resource: [Differences between JVM vs JRE vs JDK](https://byjus.com/gate/differe
 
 <img width="224" alt="Screen Shot 2023-08-08 at 1 57 38 PM" src="https://github.com/trucdg/section1-Spring-boot-Maven/assets/91285203/7b787933-362b-432e-b843-a3809cf52ae7">
 
+- Maven provides a standard directory structure
+- file **pom.xml** is a Project Object Model (POM). It is the fundamental unit of work in Maven. It is an XML file that contains information about the project and configuration details such as dependencies, build directory, etc.
+
 
 
 
